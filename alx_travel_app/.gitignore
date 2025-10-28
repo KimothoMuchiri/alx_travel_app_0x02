@@ -1,0 +1,22 @@
+# .gitignore
+# Virtual environment
+/venv/
+
+# Environment variables
+.env
+alx_travel_app/.env
+# PyCharm-specific files
+.idea/
+
+# Django-specific files
+__pycache__/
+*.pyc
+/listings/__pycache__/
+*.pyc
+# Database file
+db.sqlite3
+
+#database creation file
+dbcreate.py
+
+/alx_travel_app/.gitignore
